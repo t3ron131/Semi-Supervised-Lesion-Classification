@@ -2,6 +2,8 @@
 
 ***Colaboration with [UrMBCMRabbont](https://github.com/UrMBCMRabbont)***
 
+*The Final Project 1 of HKUST ELEC4010N - Artificial Intelligence for Medical Image Analysis*
+
 Implementing semi-supervised binary classification on a dermoscopic lesion dataset by Mean Teacher model and ResNet.
 
 For more high-level details, read the Project 1 part of the [presentation slides](./Presentation.pdf) and the [report](./Report.pdf).
