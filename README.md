@@ -1,1 +1,67 @@
 # Semi-Supervised-Lesion-Classification
+
+***Colaboration with [UrMBCMRabbont](https://github.com/UrMBCMRabbont)***
+
+Implementing semi-supervised binary classification on a dermoscopic lesion dataset by Mean Teacher model and ResNet.
+
+For more high-level details, read the Project 1 part of the [presentation slides](./Presentation.pdf) and the [report](./Report.pdf).
+
+Results:
+- Validation accuracy: 80.00%
+- Validation AUC: 0.6648
+
+These results are compared with the baseline:
+- Validation accuracy: 81.13%
+- Validation AUC: 0.5402
+
+Note that this dataset has a class imbalance problem, so it is likely to have high validation accuracy with low or high validation AUC. More tunings might produce better results.
+
+## Prerequisites
+
+Download and unzip data from the following links:
+- [ISBI2016_ISIC_Part3_Training_Data.zip](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_Data.zip)
+- [ISBI2016_ISIC_Part3_Training_GroundTruth.csv](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_GroundTruth.csv)
+
+Place the files into the main directory. Alternatively, you can run the following commands in the notebook:
+
+```python
+!wget https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_Data.zip
+!wget https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_GroundTruth.csv
+!unzip "./ISBI2016_ISIC_Part3_Training_Data.zip"
+```
+
+Install the additional library by `pip install -U albumentations`.
+
+These parts are included in the first code cell in the notebook.
+
+Note that the test data are not used in this project. However if need, the test data can be accessed from the links:
+- [ISBI2016_ISIC_Part3_Test_Data.zip](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Test_Data.zip)
+- [ISBI2016_ISIC_Part3_Test_GroundTruth.csv](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Test_GroundTruth.csv)
+
+## Outline
+
+0: For Colab
+
+1: Import
+
+2: Data Loading
+
+3: Data Preprocessing and Dataloaders
+
+- 3.1: Upsampling
+
+- 3.2: Augmentation
+
+- 3.3: Dataloaders
+
+4: Building Models
+
+- 4.1: ResNet-50
+
+- 4.2: BCE Focal Loss
+
+- 4.3: Mean Teacher Model
+
+5: Training
+
+6: Results
