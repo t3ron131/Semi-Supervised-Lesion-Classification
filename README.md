@@ -22,7 +22,7 @@ Download and unzip data from the following links:
 - [ISBI2016_ISIC_Part3_Training_Data.zip](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_Data.zip)
 - [ISBI2016_ISIC_Part3_Training_GroundTruth.csv](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_GroundTruth.csv)
 
-Place the files into the main directory. Alternatively, you can run the following commands in the notebook:
+Place the files into the main directory. Alternatively, run the following commands in the notebook:
 
 ```python
 !wget https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_Data.zip
@@ -38,7 +38,7 @@ Note that the test data are not used in this project. However if need, the test 
 - [ISBI2016_ISIC_Part3_Test_Data.zip](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Test_Data.zip)
 - [ISBI2016_ISIC_Part3_Test_GroundTruth.csv](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Test_GroundTruth.csv)
 
-## Outline
+## Notebook Outline
 
 0: For Colab
 
@@ -65,3 +65,9 @@ Note that the test data are not used in this project. However if need, the test 
 5: Training
 
 6: Results
+
+## Reference
+
+Tarvainen, A., Valpola, H. (2017). Mean teachers are better role models: Weight-averaged consistency targets
+improve semi-supervised deep learning results. *arXiv:1703.01780*
+
