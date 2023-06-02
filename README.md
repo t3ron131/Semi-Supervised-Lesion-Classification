@@ -41,35 +41,21 @@ Note that the test data are not used in this project. However if need, the test 
 - [ISBI2016_ISIC_Part3_Test_GroundTruth.csv](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Test_GroundTruth.csv)
 
 ## Notebook Outline
-
-0: For Colab
-
-1: Import
-
-2: Data Loading
-
-3: Data Preprocessing and Dataloaders
-
-- 3.1: Upsampling
-
-- 3.2: Augmentation
-
-- 3.3: Dataloaders
-
-4: Building Models
-
-- 4.1: ResNet-50
-
-- 4.2: BCE Focal Loss
-
-- 4.3: Mean Teacher Model
-
-5: Training
-
-6: Results
+0. For Colab
+1. Import
+2. Data Loading
+3. Data Preprocessing and Dataloaders
+    1. Upsampling
+    2. Augmentation
+    3. Dataloaders
+4. Building Models
+    1. ResNet-50
+    2. BCE Focal Loss
+    3. Mean Teacher Model
+5. Training
+6. Results
 
 ## Reference
 
 Tarvainen, A., Valpola, H. (2017). Mean teachers are better role models: Weight-averaged consistency targets
 improve semi-supervised deep learning results. *arXiv:1703.01780*
-
