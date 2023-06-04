@@ -1,5 +1,4 @@
 # Semi-Supervised-Lesion-Classification
-
 ***Colaboration with [UrMBCMRabbont](https://github.com/UrMBCMRabbont)***
 
 *The Final Project 1 of HKUST ELEC4010N - Artificial Intelligence for Medical Image Analysis*
@@ -19,7 +18,6 @@ These results are compared with the baseline:
 Note that this dataset has a class imbalance problem, so it is likely to have high validation accuracy with low or high validation AUC. More tunings might produce better results.
 
 ## Prerequisites
-
 Download and unzip data from the following links:
 - [ISBI2016_ISIC_Part3_Training_Data.zip](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_Data.zip)
 - [ISBI2016_ISIC_Part3_Training_GroundTruth.csv](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Training_GroundTruth.csv)
@@ -41,7 +39,6 @@ Note that the test data are not used in this project. However if need, the test 
 - [ISBI2016_ISIC_Part3_Test_GroundTruth.csv](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Test_GroundTruth.csv)
 
 ## Notebook Outline
-
 0. For Colab
 1. Import
 2. Data Loading
@@ -57,6 +54,5 @@ Note that the test data are not used in this project. However if need, the test 
 6. Results
 
 ## Reference
-
 Tarvainen, A., Valpola, H. (2017). Mean teachers are better role models: Weight-averaged consistency targets
 improve semi-supervised deep learning results. *arXiv:1703.01780*
