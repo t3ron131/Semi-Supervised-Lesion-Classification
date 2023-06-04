@@ -41,6 +41,7 @@ Note that the test data are not used in this project. However if need, the test 
 - [ISBI2016_ISIC_Part3_Test_GroundTruth.csv](https://isic-challenge-data.s3.amazonaws.com/2016/ISBI2016_ISIC_Part3_Test_GroundTruth.csv)
 
 ## Notebook Outline
+
 0. For Colab
 1. Import
 2. Data Loading
