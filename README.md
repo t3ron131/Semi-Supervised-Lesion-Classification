@@ -1,4 +1,4 @@
-# Semi-Supervised-Lesion-Classification
+# Semi-Supervised Lesion Classification
 ***Colaboration with [UrMBCMRabbont](https://github.com/UrMBCMRabbont)***
 
 *The Final Project 1 of HKUST ELEC4010N - Artificial Intelligence for Medical Image Analysis*
